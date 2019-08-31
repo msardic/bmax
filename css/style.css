@@ -1,0 +1,396 @@
+* {
+  font-family: Roboto;
+}
+.head {
+  background-color: #f6f6f6;
+}
+
+.nav-link {
+  font-size: 1.0625em;
+}
+
+.flagResize {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.navbarResize {
+  height: 37px;
+}
+
+.langFontSize {
+  font-size: 0.875em;
+}
+
+.pathTriangle {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.navigationBar {
+  height: 128px;
+}
+
+.pathSearch {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.searchBorder {
+  border-left: solid 0.5px #cacaca;
+  border-right: solid 0.5px #cacaca;
+}
+
+.navbarColor {
+  color: #242f40 !important;
+}
+
+.navbarColor:hover {
+  color: #090d13 !important;
+}
+
+.numberColor {
+  color: #cf102b;
+  font-size: 1.2125em;
+}
+
+.siteLogo img {
+  width: 131px;
+  height: 58px;
+}
+
+.bigImageContent {
+  background-image: url(/img/adult-automotive-blur-13861.jpg);
+  height: 618px;
+  background-size: 100%;
+}
+
+.btnColor {
+  background-color: #cf102b;
+  width: 166px;
+  height: 75px;
+  border-radius: 0 0.25em 0.25em 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.formSize {
+  width: 295px;
+  height: 75px;
+  border-radius: 0.25rem 0 0 0.25em;
+  font-size: 18px;
+}
+
+.firstText {
+  font-size: 39px;
+}
+
+.secondText {
+  font-size: 21px;
+}
+
+.containerSize {
+  height: 100%;
+}
+
+.iconSide {
+  width: 125px;
+  height: 125px;
+  border-radius: 8px;
+  border: solid 1px #cacaca;
+  background-color: #ffffff;
+}
+
+.textContent {
+  height: 200px;
+}
+
+.textContent :nth-child(1) {
+  font-size: 34px;
+  color: #2c2e30;
+}
+
+.textContent :nth-child(2) {
+  font-size: 18px;
+  color: #7e8085;
+}
+
+.iconSide img {
+  width: 65px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.textSide a {
+  font-size: 18px;
+  color: #7e8085;
+  text-decoration: none;
+}
+
+.textSide {
+  width: 120px;
+  text-align: center;
+}
+
+.recommend {
+  visibility: visible !important;
+}
+
+.rcmnd {
+  width: 238.2px;
+  height: 17.4px;
+  font-size: 9.1px;
+  background-color: #ffb34b;
+  visibility: hidden;
+}
+
+.cardStyle {
+  width: 238px;
+  height: 340.5px;
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.08);
+  border: solid 1.5px #f9f9f9;
+  background-color: #ffffff;
+}
+
+.cardTextStyle {
+  font-size: 10.6px;
+}
+
+.firstText p,
+strong {
+  margin: 0;
+}
+
+.firstText {
+  width: 632px;
+}
+
+.secondText {
+  padding: 24px 0px;
+  width: 320px;
+}
+
+.priceSize {
+  font-size: 45.3px;
+}
+
+.btnColor1 {
+  padding: 10px 20px;
+  background-color: #3ccf8e;
+  font-size: 10.6px;
+}
+
+.redBorder {
+  width: 96px;
+  height: 2px;
+  border: solid 1px #f04b31;
+}
+
+.cardTextStyle p {
+  margin: 0;
+}
+
+.marginContainer {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.bigHeader {
+  width: 852px;
+  height: 90px;
+  font-size: 34px;
+  text-align: center;
+  color: #2c2e30;
+}
+
+.col-sm-6 {
+  text-align: center;
+}
+
+.svgImage img {
+  width: 64px;
+  height: 64px;
+}
+
+.questionHeaderText {
+  width: 206px;
+  height: 64px;
+  font-size: 24px;
+}
+
+.questionContentText {
+  width: 332px;
+  height: 149px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #54565a;
+}
+
+.questionReadMore{
+  width: 110px;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 18px;
+  color: #2c2e30;
+}
+
+.redBaseLine{
+    width: 142px;
+    height: 1px;
+    border: solid 2px #f04b31;
+}
+
+.bgcontent{
+    width: 411px;
+    height: 504px;
+    border-radius: 5px;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.14);
+    background-color: #ffffff;
+}
+
+.bgcontentImgBackground{
+  width: 108px;
+  height: 108px;
+  background-color: #fff5f4;
+  border-radius: 50%;
+}
+
+.bgcontentBigText{
+    width: 179px;
+    height: 34px;
+    font-size: 24px;
+    line-height: 1.42;
+    text-align: center;
+    color: #2c2e30;
+
+}
+
+.bgcontentText{
+    width: 316px;
+    height: 96px;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: center;
+    color: #54565a;
+
+}
+
+.bgcontentRedLine{
+    width: 142px;
+    height: 1px;
+    border: solid 2px #f04b31;
+}
+
+.commentContent{
+    width: 355px;
+    height: 263px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(44, 46, 48, 0.08);
+    border: solid 1px #e7eaee;
+    background-color: #ffffff;
+}
+
+.peopleComment img{
+  border-radius:50%;
+  width: 34px;
+  height: 34px;
+}
+
+.cfluidBackground{
+
+  background-color: #f6f8f9;
+
+
+}
+
+.compImgSize {
+  width: 114px;
+  height: 38px;
+}
+
+.needHelpBorder{
+  width: 65px;
+  height: 2px;
+  border: solid 1px #c4cdd5;
+}
+
+.needHelpLogo{
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  
+}
+
+.needHelpText{
+  width: 123px;
+  height: 32px;
+  font-size: 24px;
+  text-align: center;
+  color: #454f5b;
+}
+
+.needHelpContent{
+    width: 499px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 1.57;
+    color: #454f5b;
+    text-align: center;
+}
+
+.needHelpMail{
+  width: 163px;
+  height: 24px;
+  font-size: 18px;
+  text-align: center;
+  color: #cf102b;
+}
+
+.cfluidBackground1{
+  background-color: #181c25;
+}
+
+.footerHeader{
+  font-size: 23px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+
+.socialmedia img{
+  width: 44px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.anchorStyle a{
+  font-family: Roboto;
+  font-size: 14px;
+    line-height: 1.64;
+    color: #ffffff;
+}
+
+
+.anchorStyle a:hover{
+  text-decoration: none;
+  color:#ebcece;
+}
+
+.footerRectangle{
+  
+  background-color: #1d222e;
+}
+
+.footerRectangleStyle a{
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.footerRectangleStyle a:hover{
+  text-decoration: none;
+  color:#ebcece;
+}
