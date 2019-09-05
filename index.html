@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- <link rel="stylesheet" href="./css/normalize.css" /> -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet" />
   <title>Hello, world!</title>
 </head>
@@ -21,8 +21,10 @@
 
 
     <div class="head">
-      <div class="container d-flex justify-content-end">
-        <nav class="navbar navbar-expand-lg navbar-light p-0 navbarResize">
+      
+
+      <div class="container headerMenu d-flex justify-content-end">
+        <nav class="navbar navbar-expand-lg navbar-light p-0 navbarResize dropdown">
           <ul class="navbar-nav">
             <li class="nav-item px-3">
               <a class="nav-link" href="#">Payment</a>
@@ -45,34 +47,44 @@
 
 
     <div class="navigationBar">
-      <div class="container d-flex  containerSize">
-        <nav class="navbar navbar-expand-lg navbar-light p-0 w-100 ">
-          <ul class="align-items-center navbar-nav justify-content-end w-100">
-            <li class="nav-item siteLogo mr-auto">
-              <div class="nav-link navbarColor">
-                <a href="#"><img src="./img/b-max-logo-4E41A1BE02-seeklogo.com.gif" alt="Site logo" /></a>
-              </div>
-            </li>
-            <li class="nav-item px-1">
-              <a class="nav-link navbarColor" href="#">About</a>
-            </li>
-            <li class="nav-item px-1">
-              <a class="nav-link navbarColor" href="#">Products</a>
-            </li>
-            <li class="nav-item px-1">
-              <a class="nav-link navbarColor" href="#">Resources</a>
-            </li>
-            <li class="nav-item px-1">
-              <a class="nav-link navbarColor " href="#">Claims</a>
-            </li>
-            <li class="nav-item d-flex align-items-center px-2 searchBorder ">
-              <img src="img/seach.svg" />
-            </li>
-            <li class="nav-item d-flex align-items-center">
-              <a class="nav-link " href="#">Call us <span class="numberColor">800-921-CMIN</span></a>
-            </li>
-          </ul>
-        </nav>
+      <div class="container ">
+        <div class="d-flex  containerSize justify-content-between">
+          <div class="siteLogo">
+            <div class="navbarColor">
+              <a href="#"><img src="./img/US-FDIC-Logo.svg" alt="Site logo" /></a>
+            </div>
+          </div>
+          <nav class="navbar navbar-expand-lg navbar-light px-0 ">
+            <ul class="align-items-center navbar-nav navbarDisplay">
+
+              <li class="nav-item px-1">
+                <a class="nav-link navbarColor" href="#">About</a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link navbarColor" href="#">Products</a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link navbarColor" href="#">Resources</a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link navbarColor " href="#">Claims</a>
+              </li>
+              <li class="nav-item d-flex align-items-center px-2 searchBorder ">
+                  <div class="input-group inputSearchDisplay">
+                      <input type="text" class="form-control" >
+                      <div class="input-group-append">
+                        <span class="input-group-text"><img src="img/seach.svg" /></span>
+                        
+                      </div>
+                    </div>
+                <img class="searchDisplay" src="img/seach.svg" />
+              </li>
+              <li class="nav-item d-flex align-items-center px-1">
+                <a class="nav-link " href="#">Call us <span class="numberColor">800-921-FDIC</span></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
 
@@ -89,15 +101,23 @@
             Nullam mollis, arcu et sodales sodales, libero nisl vestibulum
             nisi, eu aliquet nunc
           </p>
-          <nav class="navbar navbar-light px-0">
+          <nav class="navbar navbar-light px-0 responsiveNavbar">
             <form class="form-inline formSizeContainer">
-              <input class="form-control formSize " type="search" placeholder="Search" aria-label="Search" />
+              <input class="form-control formSize " type="search" placeholder="Zip Code" aria-label="Search" />
               <button class="btn btnColor " type="submit">GET STARTED</button>
             </form>
           </nav>
         </div>
       </div>
     </div>
+
+    <div class="container d-flex justify-content-center my-5">
+      <nav class="navbar navbar-light px-0 mobileResponsiveNavbar">
+      <form class="form-inline formSizeContainer">
+        <input class="form-control formSize " type="search" placeholder="Zip Code" aria-label="Search" />
+        <button class="btn btnColor " type="submit">GET STARTED</button>
+      </form>
+    </nav></div>
 
 
 
@@ -108,8 +128,8 @@
         </p>
         <p>Select all that apply to you and see what people like you pay</p>
       </div>
-      <div class="row rectangleContainer d-flex justify-content-center my-3">
-        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
+      <div class="row rectangleContainer d-flex justify-content-center my-5">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-6 d-flex justify-content-center">
           <div class="rectangle">
             <div class="iconSide d-flex justify-content-center align-items-center">
               <a href="#"><img src="./img/signle-grey.svg" /> </a>
@@ -119,7 +139,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-6 d-flex justify-content-center">
           <div class="rectangle">
             <div class="iconSide d-flex justify-content-center align-items-center">
               <a href="#"><img src="./img/25-ower-grey.svg" /> </a>
@@ -129,7 +149,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-6 d-flex justify-content-center">
           <div class="rectangle">
             <div class="iconSide d-flex justify-content-center align-items-center">
               <a href="#"><img src="./img/my-kisd-grey.svg" /> </a>
@@ -139,7 +159,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-6 d-flex justify-content-center">
           <div class="rectangle">
             <div class="iconSide d-flex justify-content-center align-items-center">
               <a href="#"><img src="./img/finance-grey.svg" /> </a>
@@ -149,7 +169,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-6 d-flex justify-content-center">
           <div class="rectangle ">
             <div class="iconSide d-flex justify-content-center align-items-center">
               <a href="#"><img src="./img/car-worth-grey.svg" /></a>
@@ -159,7 +179,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-6 d-flex justify-content-center">
           <div class="rectangle">
             <div class="iconSide d-flex justify-content-center align-items-center">
               <a href="#"><img src="./img/own-home-grey.svg" /></a>
@@ -174,7 +194,7 @@
 
 
 
-    <div class="container ">
+    <div class="container">
       <div class="row marginContainer d-flex justify-content-center">
         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
           <div class="pricing py-4">
@@ -320,73 +340,75 @@
 
 
 
-    <div class="row questionContainer">
-      <div class="align-items-center col-lg-4 col-md-6 col-sm-12 col-xl-4 d-flex flex-column">
-        <div class="questionRectangle m-5">
-          <div class="questionHeaderSide d-flex">
-            <div class="svgImage mr-2">
-              <img src="./img/quiz.svg" />
+    <div class="container">
+      <div class="row">
+        <div class="align-items-center col-lg-4 col-md-6 col-sm-12 col-xl-4 d-flex flex-column px-0 ">
+          <div class="questionRectangle m-5">
+            <div class="questionHeaderSide d-flex">
+              <div class="svgImage mr-2">
+                <img src="./img/quiz.svg" />
+              </div>
+              <div class="questionHeaderText">
+                What Kind of Driver are you?
+              </div>
             </div>
-            <div class="questionHeaderText">
-              What Kind of Driver are you?
+            <div class="questionContentText my-3">
+              Proin sem velit, tincidunt in laoreet eget, ultricies elementum
+              massa. Nullam vel erat volutpat, sagittis massa non, maximus urna.
+              <span style="color:#f04b31">Mauris accumsan dui vestibulum neque</span> convallis posuere.
             </div>
+            <div class="d-flex align-items-baseline">
+              <div class="questionReadMore mr-3">Take the Quiz</div>
+              <div class="qRMArrow"><img src="./img/tailright.svg" /></div>
+            </div>
+            <div class="redBaseLine"></div>
           </div>
-          <div class="questionContentText my-3">
-            Proin sem velit, tincidunt in laoreet eget, ultricies elementum
-            massa. Nullam vel erat volutpat, sagittis massa non, maximus urna.
-            <span style="color:#f04b31">Mauris accumsan dui vestibulum neque</span> convallis posuere.
-          </div>
-          <div class="questionReadMoreContainer d-flex align-items-baseline">
-            <div class="questionReadMore mr-3">Take the Quiz</div>
-            <div class="qRMArrow"><img src="./img/tailright.svg" /></div>
-          </div>
-          <div class="redBaseLine"></div>
         </div>
-      </div>
-      <div class="align-items-center col-lg-4 col-md-6 col-sm-12 col-xl-4 d-flex flex-column">
-        <div class="questionRectangle m-5">
-          <div class="questionHeaderSide d-flex">
-            <div class="svgImage mr-2">
-              <img src="./img/driving-license.svg" />
+        <div class="align-items-center col-lg-4 col-md-6 col-sm-12 col-xl-4 d-flex flex-column px-0 ">
+          <div class="questionRectangle m-5">
+            <div class="questionHeaderSide d-flex">
+              <div class="svgImage mr-2">
+                <img src="./img/driving-license.svg" />
+              </div>
+              <div class="questionHeaderText">
+                Can i get insurance
+                without a license?
+              </div>
             </div>
-            <div class="questionHeaderText">
-              Can i get insurance
-              without a license?
+            <div class="questionContentText my-3">
+              Proin sem velit, tincidunt in laoreet eget, ultricies elementum
+              massa. Nullam vel erat volutpat, sagittis massa non, maximus urna.
+              <span style="color:#f04b31">Mauris accumsan dui vestibulum neque</span> convallis posuere.
             </div>
+            <div class="d-flex align-items-baseline">
+              <div class="questionReadMore mr-3">Take the Quiz</div>
+              <div class="qRMArrow"><img src="./img/tailright.svg" /></div>
+            </div>
+            <div class="redBaseLine"></div>
           </div>
-          <div class="questionContentText my-3">
-            Proin sem velit, tincidunt in laoreet eget, ultricies elementum
-            massa. Nullam vel erat volutpat, sagittis massa non, maximus urna.
-            <span style="color:#f04b31">Mauris accumsan dui vestibulum neque</span> convallis posuere.
-          </div>
-          <div class="questionReadMoreContainer d-flex align-items-baseline">
-            <div class="questionReadMore mr-3">Take the Quiz</div>
-            <div class="qRMArrow"><img src="./img/tailright.svg" /></div>
-          </div>
-          <div class="redBaseLine"></div>
         </div>
-      </div>
-      <div class="align-items-center col-lg-4 col-md-6 col-sm-12 col-xl-4 d-flex flex-column">
-        <div class="questionRectangle m-5">
-          <div class="questionHeaderSide d-flex">
-            <div class="svgImage mr-2">
-              <img src="./img/save-money.svg" />
+        <div class="align-items-center col-lg-4 col-md-6 col-sm-12 col-xl-4 d-flex flex-column px-0 ">
+          <div class="questionRectangle m-5">
+            <div class="questionHeaderSide d-flex">
+              <div class="svgImage mr-2">
+                <img src="./img/save-money.svg" />
+              </div>
+              <div class="questionHeaderText">
+                How to incrase
+                your saving
+              </div>
             </div>
-            <div class="questionHeaderText">
-              How to incrase
-              your saving
+            <div class="questionContentText my-3">
+              Proin sem velit, tincidunt in laoreet eget, ultricies elementum
+              massa. Nullam vel erat volutpat, sagittis massa non, maximus urna.
+              <span style="color:#f04b31">Mauris accumsan dui vestibulum neque</span> convallis posuere.
             </div>
+            <div class="d-flex align-items-baseline">
+              <div class="questionReadMore mr-3">Take the Quiz</div>
+              <div class="qRMArrow"><img src="./img/tailright.svg" /></div>
+            </div>
+            <div class="redBaseLine"></div>
           </div>
-          <div class="questionContentText my-3">
-            Proin sem velit, tincidunt in laoreet eget, ultricies elementum
-            massa. Nullam vel erat volutpat, sagittis massa non, maximus urna.
-            <span style="color:#f04b31">Mauris accumsan dui vestibulum neque</span> convallis posuere.
-          </div>
-          <div class="questionReadMoreContainer d-flex align-items-baseline">
-            <div class="questionReadMore mr-3">Take the Quiz</div>
-            <div class="qRMArrow"><img src="./img/tailright.svg" /></div>
-          </div>
-          <div class="redBaseLine"></div>
         </div>
       </div>
     </div>
@@ -394,29 +416,36 @@
 
     <div class="container-fluid cfluidBackground pb-5">
       <div class="row py-5">
-        <div class="col-xl-6 col-sm-12 d-flex justify-content-center">
-          <div class="bgcontent d-flex flex-column align-items-center justify-content-center mb-3">
+          <div class="col-xl-3 col-sm-12 d-flex justify-content-center">
+          </div>
+        <div class="col-xl-3 col-sm-12 d-flex justify-content-center">
+          <div class="bgcontent d-flex flex-column align-items-center justify-content-center mb-3 p-3">
             <div class="bgcontentImgBackground d-flex justify-content-center align-items-center"><img
                 src="./img/credit-card.svg" alt=""></div>
-            <div class="bgcontentBigText my-5">Make a Payment</div>
+            <div class="bgcontentBigText my-4">Make a Payment</div>
             <div class="bgcontentText">Cras neque mi, scelerisque in vestibulum a, dictum at quam. Nam id justo ut nibh
               egestas laoreet sed et velit. </div>
-
+              <div class="questionReadMoreContainer d-flex align-items-baseline invisible">
+                  <div class="questionReadMore mr-3 invisible">Read More</div>
+                  <div class="qRMArrow invisible"><img src="./img/tailright.svg" /></div>
+                </div>
           </div>
         </div>
-        <div class="col-xl-6 col-sm-12 d-flex justify-content-center">
-          <div class="bgcontent d-flex flex-column align-items-center justify-content-center mb-3">
+        <div class="col-xl-3 col-sm-12 d-flex justify-content-center">
+          <div class="bgcontent d-flex flex-column align-items-center justify-content-center mb-3 p-3">
             <div class="bgcontentImgBackground d-flex justify-content-center align-items-center"><img
                 src="./img/grid-45.svg" alt=""></div>
-            <div class="bgcontentBigText my-5">Claims</div>
+            <div class="bgcontentBigText my-4">Claims</div>
             <div class="bgcontentText">Cras neque mi, scelerisque in vestibulum a, dictum at quam. Nam id justo ut nibh
               egestas laoreet sed et velit. </div>
             <div class="questionReadMoreContainer d-flex align-items-baseline">
               <div class="questionReadMore mr-3">Read More</div>
               <div class="qRMArrow"><img src="./img/tailright.svg" /></div>
             </div>
-            <div class="bgcontentRedLine"></div>
           </div>
+         
+        </div>
+        <div class="col-xl-3 col-sm-12 d-flex justify-content-center">
         </div>
       </div>
 
@@ -507,13 +536,13 @@
 
     </div>
 
-    <div class="needHelp d-flex flex-column align-items-center mb-4">
+    <div class="needHelp d-flex flex-column align-items-center mb-5">
       <div class="needHelpLogo mb-1"><img src="./img/page-1.svg"></div>
       <div class="needHelpText ">Need Help?</div>
       <div class="needHelpBorder my-3"></div>
       <div class="needHelpContent mb-1">Contact our Customer Support that is always ready to help you with any possible
         questions, problems or information.</div>
-      <div class="needHelpMail mb-1">support@cmin.com</div>
+      <div class="needHelpMail mb-1">support@fdic.com</div>
     </div>
     <div class="container-fluid cfluidBackground1 pt-5">
       <div class="container">
@@ -522,7 +551,7 @@
             <div class="footerHeader pb-3 text-white">Products</div>
             <div class="footerContent">
               <ul class="list-unstyled anchorStyle">
-                <li class="my-1"><a href="">About C-MIN</a></li>
+                <li class="my-1"><a href="">About <f-DIC></f-DIC></a></li>
                 <li class="my-1"><a href="">Contact Us</a></li>
                 <li class="my-1"><a href="">Customer Testimonials</a></li>
                 <li class="my-1"><a href="">FAQs</a></li>
@@ -589,7 +618,7 @@
                 <div class="footerHeader pb-3 text-white">Connect With Us</div>
                 <div class="footerContent">
                   <ul class="list-unstyled anchorStyle">
-                    <li class="my-1"><a href="">800-921-CMIN</a></li>
+                    <li class="my-1"><a href="">800-921-FDIC</a></li>
                   </ul>
                 </div>
               </div>
@@ -668,7 +697,7 @@
 
     <div class="content-fluid">
       <div class="footerRectangle">
-        <div class="row">
+        <div class="row mx-0">
           <div class="col-xl-6 d-flex footerRectangleStyle justify-content-center my-3">
             <a class="mx-3" href="#">Status</a>
             <a class="mx-3" href="#">Privacy & Terms</a>
@@ -678,7 +707,6 @@
 <a class="ml-5" href="#">© 2019 Deivas.io, Inc. All rights reserved.</a>
           </div>
         </div>
-
 
       </div>
     </div>
