@@ -1,0 +1,66 @@
+[
+    {
+        
+        "offerId":1,
+        "isRecommened":true,
+        "insuranceProtectionType":"State Minimum Protection",
+        "insurancePaymentOfferName":"first Offer",
+        "monthlyFee":69,
+        "BodyInjuryMinRepay":25,
+        "BodyInjuryMaxRepay":50,
+        "PropertyDamageRepay":15,
+        "isCollision":false,
+        "isCompherensive":false,
+        "unitOfCurrency":"$"
+
+    },
+
+    {
+        
+        "offerId":2,
+        "isRecommened":false,
+        "insuranceProtectionType":"Standart Protection",
+        "insurancePaymentOfferName":"Second Offer",
+        "monthlyFee":79,
+        "BodyInjuryMinRepay":25,
+        "BodyInjuryMaxRepay":50,
+        "PropertyDamageRepay":15,
+        "isCollision":false,
+        "isCompherensive":false,
+        "unitOfCurrency":"$"
+
+    },
+
+    {
+        
+        "offerId":3,
+        "isRecommened":false,
+        "insuranceProtectionType":"Asset Protection",
+        "insurancePaymentOfferName":"Third Offer",
+        "monthlyFee":167,
+        "BodyInjuryMinRepay":25,
+        "BodyInjuryMaxRepay":50,
+        "PropertyDamageRepay":15,
+        "isCollision":false,
+        "isCompherensive":false,
+        "unitOfCurrency":"$"
+
+    },
+
+    {
+        
+        "offerId":4,
+        "isRecommened":false,
+        "insuranceProtectionType":"Premium Protection",
+        "insurancePaymentOfferName":"Fourth Offer",
+        "monthlyFee":146,
+        "BodyInjuryMinRepay":25,
+        "BodyInjuryMaxRepay":50,
+        "PropertyDamageRepay":15,
+        "isCollision":false,
+        "isCompherensive":false,
+        "unitOfCurrency":"$"
+
+    }
+
+]

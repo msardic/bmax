@@ -1,0 +1,38 @@
+[
+    {   
+        "insuranceTypeId":1,
+        "insuranceIcon":"http://placehold.it/32x32",
+        "insuranceTypeName":"Single",
+        "iconTitle":""
+    },
+    {
+        "insuranceTypeId":2,
+        "insuranceIcon":"http://placehold.it/32x32",
+        "insuranceTypeName":"25 or Over",
+        "iconTitle":""
+    },
+    {
+        "insuranceTypeId":3,
+        "insuranceIcon":"http://placehold.it/32x32",
+        "insuranceTypeName":"My Kids Drive",
+        "iconTitle":""
+    },
+    {
+        "insuranceTypeId":4,
+        "insuranceIcon":"http://placehold.it/32x32",
+        "insuranceTypeName":"Finance / Lease Car",
+        "iconTitle":""
+    },
+    {
+        "insuranceTypeId":5,
+        "insuranceIcon":"http://placehold.it/32x32",
+        "insuranceTypeName":"Car Worth Over",
+        "iconTitle":""
+    },
+    {
+        "insuranceTypeId":6,
+        "insuranceIcon":"http://placehold.it/32x32",
+        "insuranceTypeName":"Own My Home",
+        "iconTitle":""
+    }
+]

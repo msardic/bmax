@@ -1,0 +1,27 @@
+[
+    {
+        "questionId":1,
+        "questionIcon":"http://placehold.it/32x32",
+        "questionTitle":"What Kind of Driver are you?",
+        "answerOfQuestion":"Proin sem velit, tincidunt in laoreet eget, ultricies elementum massa. Nullam vel erat volutpat, sagittis massa non, maximus urna. Mauris accumsan dui vestibulum neque convallis posuere.",
+        "answerHighlight":"Mauris accumsan dui vestibulum neque"
+       
+    },
+    {
+        "questionId":2,
+        "questionIcon":"http://placehold.it/32x32",
+        "questionTitle":"Can i get insurance without a license?",
+        "answerOfQuestion":"Proin sem velit, tincidunt in laoreet eget, ultricies elementum massa. Nullam vel erat volutpat, sagittis massa non, maximus urna. Mauris accumsan dui vestibulum neque convallis posuere.",
+        "answerHighlight":"Mauris accumsan dui vestibulum neque"
+       
+    },
+    {
+        "questionId":3,
+        "questionIcon":"http://placehold.it/32x32",
+        "questionTitle":"How to incrase your saving?",
+        "answerOfQuestion":"Proin sem velit, tincidunt in laoreet eget, ultricies elementum massa. Nullam vel erat volutpat, sagittis massa non, maximus urna. Mauris accumsan dui vestibulum neque convallis posuere.",
+        "answerHighlight":"Mauris accumsan dui vestibulum neque"
+       
+    }
+    
+]

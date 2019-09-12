@@ -240,8 +240,6 @@ a{
   height: 100%; 
 }
 
-
-
 .textContent {
   height: 200px;
 }
@@ -259,9 +257,7 @@ a{
   margin-bottom:1.5em
 }
 
-
-
-.textSide a {
+ .textSide a {
   font-size: 1.125em;
   color: #7e8085;
   text-decoration: none;

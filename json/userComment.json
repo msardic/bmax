@@ -1,0 +1,36 @@
+[
+    {
+        "commentId":1,
+        "customerId":1,
+        "customerCommentId":1,
+        "customerName":"Martin",
+        "customerSurname":"Jones",
+        "customerJob":"Creative Cons",
+        "customerComment":"Mauris accumsan dui vestibulum neque convallis posuere. Vivamus varius fringilla ultricies. Nulla aliquet diam convallis magna cursus tempus. Praesent condimentum gravida leo, a pellentesque mi condimentum eu. ",
+        "customerPhoto":"http://placehold.it/32x32"
+
+    },
+    {
+        "commentId":2,
+        "customerId":2,
+        "customerCommentId":2,
+        "customerName":"Jessia",
+        "customerSurname":"Cordon",
+        "customerJob":"Fashionier",
+        "customerComment":"Mauris accumsan dui vestibulum neque convallis posuere. Vivamus varius fringilla ultricies. Nulla aliquet diam convallis magna cursus tempus.",
+        "customerPhoto":"http://placehold.it/32x32"
+
+    },
+
+    {
+        "commentId":3,
+        "customerId":3,
+        "customerCommentId":3,
+        "customerName":"Cristina",
+        "customerSurname":"J.",
+        "customerJob":"Journey360",
+        "customerComment":"Mauris accumsan dui vestibulum neque convallis posuere. Vivamus varius fringilla ultricies.",
+        "customerPhoto":"http://placehold.it/32x32"
+
+    }
+]

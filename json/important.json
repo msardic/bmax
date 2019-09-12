@@ -1,0 +1,16 @@
+[
+    {
+        "importantInformationId":1,
+        "importantIcon":"http://placehold.it/32x32",
+        "informationTitle":"Make a Payment",
+        "informationExplain":"Cras neque mi, scelerisque in vestibulum a, dictum at quam. Nam id justo ut nibh egestas laoreet sed et velit. "
+
+    },
+    {
+        "importantInformationId":2,
+        "importantIcon":"http://placehold.it/32x32",
+        "informationTitle":"Claims",
+        "informationExplain":"Cras neque mi, scelerisque in vestibulum a, dictum at quam. Nam id justo ut nibh egestas laoreet sed et velit. "
+
+    }
+]
