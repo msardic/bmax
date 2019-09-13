@@ -1,8 +1,8 @@
-[
+
 {
-    "state":"Texas",
-    "StateAbbrevation":"TX",
-    "locationList":["Abilene", "Amarillo", "Austin", "Corpus Christi", "Dallas", "El Paso", "Fort Worth", "Houston", "Killeen", "Laredo", "Longview", "Lubbock", "Midland", "Odessa", "Rio Grande Valley", "Round Rock", "San Antonio", "Temple", "Tyler", "Waco"]
+"state":"Texas",
+"StateAbbrevation":"TX",
+"locationList":["Abilene", "Amarillo", "Austin", "Corpus Christi", "Dallas", "El Paso", "Fort Worth", "Houston", "Killeen", "Laredo", "Longview", "Lubbock", "Midland", "Odessa", "Rio Grande Valley", "Round Rock", "San Antonio", "Temple", "Tyler", "Waco"]
 }
-]
+
 
