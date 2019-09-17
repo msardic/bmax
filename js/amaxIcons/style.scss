@@ -1,0 +1,150 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2jd9rr');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2jd9rr#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?2jd9rr') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?2jd9rr') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?2jd9rr##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.amax {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tick {
+  &:before {
+    content: $icon-tick; 
+  }
+}
+.icon-female {
+  &:before {
+    content: $icon-female; 
+  }
+}
+.icon-male {
+  &:before {
+    content: $icon-male; 
+  }
+}
+.icon-married {
+  &:before {
+    content: $icon-married; 
+  }
+}
+.icon-add {
+  &:before {
+    content: $icon-add; 
+  }
+}
+.icon-remove {
+  &:before {
+    content: $icon-remove; 
+  }
+}
+.icon-edit {
+  &:before {
+    content: $icon-edit; 
+  }
+}
+.icon-whell {
+  &:before {
+    content: $icon-whell; 
+  }
+}
+.icon-user {
+  &:before {
+    content: $icon-user; 
+  }
+}
+.icon-policy {
+  &:before {
+    content: $icon-policy; 
+  }
+}
+.icon-quote {
+  &:before {
+    content: $icon-quote; 
+  }
+}
+.icon-life-ring {
+  &:before {
+    content: $icon-life-ring; 
+  }
+}
+.icon-map-marker {
+  &:before {
+    content: $icon-map-marker; 
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search; 
+  }
+}
+.icon-times {
+  &:before {
+    content: $icon-times; 
+  }
+}
+.icon-check {
+  &:before {
+    content: $icon-check; 
+  }
+}
+.icon-arrow-right {
+  &:before {
+    content: $icon-arrow-right; 
+  }
+}
+.icon-arrow-left {
+  &:before {
+    content: $icon-arrow-left; 
+  }
+}
+.icon-single {
+  &:before {
+    content: $icon-single; 
+  }
+}
+.icon-over-25 {
+  &:before {
+    content: $icon-over-25; 
+  }
+}
+.icon-over-5k {
+  &:before {
+    content: $icon-over-5k; 
+  }
+}
+.icon-lease-car {
+  &:before {
+    content: $icon-lease-car; 
+  }
+}
+.icon-kids-drive {
+  &:before {
+    content: $icon-kids-drive; 
+  }
+}
+.icon-home {
+  &:before {
+    content: $icon-home; 
+  }
+}
+

@@ -9,8 +9,8 @@
         "BodyInjuryMinRepay":25,
         "BodyInjuryMaxRepay":50,
         "PropertyDamageRepay":15,
-        "isCollision":false,
-        "isCompherensive":false,
+        "isCollision":true,
+        "isCompherensive":true,
         "unitOfCurrency":"$"
 
     },
@@ -26,7 +26,7 @@
         "BodyInjuryMaxRepay":50,
         "PropertyDamageRepay":15,
         "isCollision":false,
-        "isCompherensive":false,
+        "isCompherensive":true,
         "unitOfCurrency":"$"
 
     },
@@ -57,8 +57,8 @@
         "BodyInjuryMinRepay":25,
         "BodyInjuryMaxRepay":50,
         "PropertyDamageRepay":15,
-        "isCollision":false,
-        "isCompherensive":false,
+        "isCollision":true,
+        "isCompherensive":true,
         "unitOfCurrency":"$"
 
     }

@@ -2,6 +2,8 @@
   font-family: Roboto;
 }
 
+
+
 .rowDropdown{
   width: 873px;
   height: 210px;
@@ -240,17 +242,17 @@ a{
   height: 100%; 
 }
 
-.textContent {
+.textContent1, .textContent {
   height: 200px;
 }
 
-.textContent :nth-child(1) {
+.textContent1 :nth-child(1), .textContent :nth-child(1) {
   font-size: 2.125rem;
   color: #2c2e30;
   text-align: center;
 }
 
-.textContent :nth-child(2) {
+.textContent1 :nth-child(2), .textContent :nth-child(2) {
   font-size: 1.125em;
   color: #7e8085;
   text-align: center;
@@ -267,6 +269,8 @@ a{
   max-width: 120px;
   text-align: center;
 }
+
+
 
 .recommend {
   visibility: visible !important;
@@ -318,7 +322,7 @@ a{
   margin: 0;
 }
 
-.marginContainer {
+.offerContainer {
   margin-top: 70px;
   margin-bottom: 70px;
 }

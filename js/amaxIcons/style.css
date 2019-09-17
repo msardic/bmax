@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'amaxIcons';
+  src:  url('fonts/amaxIcons.eot?2jd9rr');
+  src:  url('fonts/amaxIcons.eot?2jd9rr#iefix') format('embedded-opentype'),
+    url('fonts/amaxIcons.ttf?2jd9rr') format('truetype'),
+    url('fonts/amaxIcons.woff?2jd9rr') format('woff'),
+    url('fonts/amaxIcons.svg?2jd9rr#amaxIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.amax {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'amaxIcons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tick:before {
+  content: "\e916";
+}
+.icon-female:before {
+  content: "\e913";
+}
+.icon-male:before {
+  content: "\e914";
+}
+.icon-married:before {
+  content: "\e915";
+}
+.icon-add:before {
+  content: "\e911";
+}
+.icon-remove:before {
+  content: "\e917";
+}
+.icon-edit:before {
+  content: "\e912";
+}
+.icon-whell:before {
+  content: "\e90c";
+}
+.icon-user:before {
+  content: "\e90d";
+}
+.icon-policy:before {
+  content: "\e90e";
+}
+.icon-quote:before {
+  content: "\e90f";
+}
+.icon-life-ring:before {
+  content: "\e90b";
+}
+.icon-map-marker:before {
+  content: "\e908";
+}
+.icon-search:before {
+  content: "\e909";
+}
+.icon-times:before {
+  content: "\e906";
+}
+.icon-check:before {
+  content: "\e90a";
+}
+.icon-arrow-right:before {
+  content: "\e907";
+}
+.icon-arrow-left:before {
+  content: "\e910";
+}
+.icon-single:before {
+  content: "\e905";
+}
+.icon-over-25:before {
+  content: "\e900";
+}
+.icon-over-5k:before {
+  content: "\e901";
+}
+.icon-lease-car:before {
+  content: "\e902";
+}
+.icon-kids-drive:before {
+  content: "\e903";
+}
+.icon-home:before {
+  content: "\e904";
+}
