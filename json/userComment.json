@@ -7,7 +7,7 @@
         "customerSurname":"Jones",
         "customerJob":"Creative Cons",
         "customerComment":"Mauris accumsan dui vestibulum neque convallis posuere. Vivamus varius fringilla ultricies. Nulla aliquet diam convallis magna cursus tempus. Praesent condimentum gravida leo, a pellentesque mi condimentum eu. ",
-        "customerPhoto":"http://placehold.it/32x32"
+        "customerPhoto":"https://randomuser.me/api/portraits/men/20.jpg"
 
     },
     {
@@ -18,7 +18,7 @@
         "customerSurname":"Cordon",
         "customerJob":"Fashionier",
         "customerComment":"Mauris accumsan dui vestibulum neque convallis posuere. Vivamus varius fringilla ultricies. Nulla aliquet diam convallis magna cursus tempus.",
-        "customerPhoto":"http://placehold.it/32x32"
+        "customerPhoto":"https://randomuser.me/api/portraits/women/26.jpg"
 
     },
 
@@ -27,10 +27,10 @@
         "customerId":3,
         "customerCommentId":3,
         "customerName":"Cristina",
-        "customerSurname":"J.",
+        "customerSurname":"James",
         "customerJob":"Journey360",
         "customerComment":"Mauris accumsan dui vestibulum neque convallis posuere. Vivamus varius fringilla ultricies.",
-        "customerPhoto":"http://placehold.it/32x32"
+        "customerPhoto":"https://randomuser.me/api/portraits/women/8.jpg"
 
     }
 ]
