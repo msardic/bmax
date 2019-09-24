@@ -98,7 +98,7 @@ $(function () {
 
 
                 let data = ""
-                data += '<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center ">';
+                data += '<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4 d-flex justify-content-center ">';
                 data += '<div class="card cardStyle w-100">';
                 data += '<p class="card-text rcmnd ' + activeRecommened + ' d-flex align-items-center justify-content-center text-white ">RECOMMENED</p>';
                 data += '<div class="card-body d-flex flex-column align-items-center py-0">';
@@ -218,7 +218,7 @@ $(function () {
 });
 
 $(function () {
-    $.getJSON("../json/thirdContent.json",
+    $.getJSON("https://msardic.github.io/bmax/json/thirdContent.json",
 
         function (result) {
             $(".textContent p:nth-child(1)").append(result.contentTitle);
@@ -232,7 +232,7 @@ $(function () {
 });
 
 $(function () {
-    $.getJSON("../json/userComment.json",
+    $.getJSON("https://msardic.github.io/bmax/json/userComment.json",
 
         function (result) {
 
@@ -269,6 +269,57 @@ $(function () {
             });
             document.getElementById("userComment").innerHTML = text;
 
+
+
+        });
+});
+
+
+$(function () {
+    $.getJSON("https://msardic.github.io/bmax/json/locations.json",
+
+        function (result) {
+    
+        
+        let locationList = "";
+            
+        result.locationList.map((item)=>{
+         
+                  locationList += '<li class="my-1"><a href="">'+item+'</a></li>';
+        
+    });
+    document.getElementById("locationList").innerHTML = locationList;
+
+
+    
+
+          
+
+
+        });
+});
+
+
+
+$(function () {
+    $.getJSON("https://msardic.github.io/bmax/json/stateList.json",
+
+        function (result) {
+    
+        
+        let stateList = "";
+            
+        result.insuranceServeStateListOfUSA.map((item)=>{
+         
+            stateList += '<li  class="anchorStyle"><a href="#">'+item+'</a></li>';
+        
+    });
+    document.getElementById("stateList").innerHTML = stateList;
+
+
+    
+
+          
 
 
         });

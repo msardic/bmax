@@ -114,7 +114,7 @@ strong {
 }
 
 .secondText {
-  padding: 24px 0px;
+  padding: 24px 0;
   max-width: 320px;
   font-size: 1.313em;
 }
@@ -171,7 +171,7 @@ strong {
 }
 
 .context{
-  padding: 80px 0px 80px 0px;
+  padding: 80px 0 80px 0;
 }
 
 
@@ -322,10 +322,7 @@ a{
   margin: 0;
 }
 
-.offerContainer {
-  margin-top: 70px;
-  margin-bottom: 70px;
-}
+
 
 .bigHeader {
   max-width: 852px;
@@ -499,11 +496,21 @@ a{
   object-fit: contain;
 }
 
+#stateList{
+  white-space:wrap;
+  
+}
+
+.anchorStyle{
+  display: inline-block;
+}
+
 .anchorStyle a{
   font-family: Roboto;
   font-size: 0.875em;
     line-height: 1.64;
     color: #ffffff;
+    margin:3px;
 }
 
 
